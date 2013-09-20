@@ -125,8 +125,6 @@ jQuery.widget( "multicomboboxui.multicombobox", {
 			});
 		}
 
-
-		// this.cashed['.selected-list'].html(elements);
 	},
 
 	_selectLi: function(e) {
@@ -290,6 +288,7 @@ jQuery.widget( "multicomboboxui.multicombobox", {
 
 	},
 
+	// return current value
 	val: function() {
 		return this.element.val();
 	},
@@ -308,6 +307,7 @@ jQuery.widget( "multicomboboxui.multicombobox", {
 		this._super( key, value );
 	},
 
+	// cashing elements
 	_casheElements: function() {
 		var $combobox = this.combobox,
 			$txtboxBtn = $combobox.find('.txtbox-btn'),

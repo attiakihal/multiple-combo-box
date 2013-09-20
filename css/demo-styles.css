@@ -1,0 +1,28 @@
+/*
+Multiple Combobox Demo Stylesheets
+Plugin URI: http://multiple-combo-box.marekrocks.it
+Author: Marek Fajkus;
+Author URI: http://marekrocks.it;
+Licence: MIT
+ */
+
+@import url(http://fonts.googleapis.com/css?family=Montserrat);
+
+html,
+input,
+textarea,
+a {
+  font-family: 'Montserrat', sans-serif;
+}
+* {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+#demoform {
+	width: 250px;
+	margin: 70px auto 20px auto;
+}
+#buttons {
+	text-align: center;
+}
