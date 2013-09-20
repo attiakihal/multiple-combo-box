@@ -25,6 +25,20 @@ You can use default styles for widget:
 
 Use selector for <select multiple> element and use widget method:
 
+    <select multiple name="" id="options" style="height:200px;">
+        <option value="apple" selected="true">Apple</option>
+        <option value="microsoft">Microsoft</option>
+        <option value="windows">Windows</option>
+        <option value="htc">HTC</option>
+        <option value="iphone" selected="true">iPhone</option>
+        <option value="jquery">jQuery</option>
+        <option value="user-infetface">user interface</option>
+        <option value="peer">peer</option>
+        <option value="responsive">responsive</option>
+        <option value="google">google</option>
+        <option value="ibm">IBM</option>
+        <option value="html5">HTML5</option>
+    </select>
     <script>
         (function ($) {
             $( "#options" ).multicombobox();
