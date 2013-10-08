@@ -4,7 +4,7 @@ multiple-combo-box
 jQuery UI widget that turns HTML select multiple into MULTIPLE COMBO BOX!
 Tested in Google Chrome, Apple Safari, Mozilla Firefox, Opera, Internet Explorer 8+
 
-*[Test demo first or donate](http://multiple-combo-box.marekrocks.it)* - coming soon
+*[Test demo first or donate](http://multiple-combo-box.marekrocks.it)*
 
 ## Usage
 
