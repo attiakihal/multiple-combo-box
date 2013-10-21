@@ -25,7 +25,7 @@ jQuery.widget( "multicomboboxui.multicombobox", {
 
 		// get the selected element
 		var $select = this.element;
-		
+
 		// crate combobox
 		var combobox = this._crateComboBox();
 		this.combobox = $ ( combobox );
@@ -46,7 +46,7 @@ jQuery.widget( "multicomboboxui.multicombobox", {
 	},
 
 	_refresh: function() {
-		
+
 	},
 
 	// events bound via _on are removed automatically
@@ -303,7 +303,7 @@ jQuery.widget( "multicomboboxui.multicombobox", {
 
 	// _setOption is called for each individual option that is changing
 	_setOption: function( key, value ) {
-		
+
 		this._super( key, value );
 	},
 
